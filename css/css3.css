@@ -1,0 +1,35 @@
+/* li 요소에 해당하는 글씨를 blue로 표시 */
+
+li{
+    color: blue;
+}
+
+/* 그룹선택자 */
+/* body>div>ul>li */
+/* body>div>ul>li>ol>li{ */
+    /* color: pink; */
+/* } */
+
+/* 자손 선택자 */
+/* body div ul li{ */
+    /* color: green; */
+/* } */
+
+/* 클래스 선택자 + 자손 선택자 */
+.list ul li{
+    color:royalblue;
+}
+
+.list ul li ol li#am11 {
+    color:green;
+}
+
+/* 저녁 글씨만 red로 표기 */
+.list ul li:nth-child(2) >
+li{
+    color:red;
+}
+
+.list ul li:nth-of-type(3){
+    color:red;
+}
